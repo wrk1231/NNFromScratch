@@ -1,0 +1,3 @@
+"""
+All self-defined errors
+"""
