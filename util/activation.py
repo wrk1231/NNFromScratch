@@ -25,3 +25,4 @@ class ACTIVATION(object):
         :return: array of np.float
         """
         return np.maximum(0,x)
+
