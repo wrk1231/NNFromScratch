@@ -9,4 +9,4 @@ class UTIL(object):
         :return:
         """
         C = np.max(x)
-        return np.exp(x + C) / sum(np.exp(x + C))
+        return np.exp(x - C) / sum(np.exp(x - C))
