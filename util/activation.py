@@ -3,6 +3,9 @@ import numpy as np
 
 class ACTIVATION(object):
 
+    def identity(self,x):
+        return x
+
     def sigmoid(self, x: np.array) -> np.array:
         """
         :param x: np.array of np.float
