@@ -6,4 +6,3 @@ class LOSS(object):
 
     def cross_entropy(self):
         pass
-    
